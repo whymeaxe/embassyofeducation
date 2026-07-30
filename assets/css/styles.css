@@ -308,15 +308,15 @@ li + li {
 
 .brand-logo {
   width: auto;
-  height: 104px;
+  height: 80px;
   object-fit: contain;
   flex: 0 0 auto;
   background: none;
   border: none;
   border-radius: 0;
   padding: 0;
-  margin: -12px 0 -20px;
-  filter: drop-shadow(0 10px 14px rgba(11, 31, 51, 0.28));
+  margin: -8px 0 -14px;
+  filter: drop-shadow(0 8px 12px rgba(57, 46, 138, 0.28));
   position: relative;
   z-index: 2;
 }
@@ -1612,7 +1612,7 @@ textarea::placeholder {
 
 .footer-brand .brand-logo {
   width: auto;
-  height: 96px;
+  height: 76px;
   margin: 0;
 }
 
@@ -1991,8 +1991,8 @@ tr:last-child td {
   }
   .brand-logo {
     width: auto;
-    height: 80px;
-    margin: -8px 0 -14px;
+    height: 62px;
+    margin: -5px 0 -9px;
   }
   .brand-copy strong {
     font-size: 1.08rem;

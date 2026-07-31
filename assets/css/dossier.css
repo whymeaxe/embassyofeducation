@@ -96,6 +96,9 @@ p { color: var(--ink-text); }
 .section-soft, .section-coral, .section-mint, .section-violet { background: var(--parchment-dim); }
 .section-dark { background: var(--ink); color: var(--parchment); }
 .section-dark h2, .section-dark h3, .section-dark h4, .section-dark .lead, .section-dark p { color: var(--parchment); }
+.section-dark .dossier-card h3, .section-dark .dossier-card h4, .section-dark .dossier-card p, .section-dark .dossier-card li,
+.section-dark .card h3, .section-dark .card h4, .section-dark .card p, .section-dark .card li,
+.section-dark .exhibit-card h3, .section-dark .exhibit-card h4, .section-dark .exhibit-card p, .section-dark .exhibit-card li { color: var(--ink-text); }
 .section-dark .eyebrow { color: var(--gold-bright); }
 .section-heading { max-width: 860px; margin-bottom: 48px; }
 .section-heading.center { margin-inline: auto; text-align: center; }
@@ -334,6 +337,7 @@ input:focus, select:focus, textarea:focus { border-color: var(--sky); box-shadow
 .site-footer { background: var(--void); color: rgba(247,245,252,.80); border-top: 1px solid rgba(201,162,39,.35); padding: 75px 0 28px; }
 .site-footer h3, .site-footer h4 { color: var(--parchment); }
 .footer-brand { grid-template-columns: 58px 1fr; }
+.footer-links a, .footer-links span, .site-footer p, .footer-brand p { color: rgba(247,245,252,.78); }
 .footer-links a:hover { color: var(--gold-bright); }
 .social-links a { border-color: var(--line-dark); border-radius: 0; }
 .footer-bottom { border-color: var(--line-dark); color: rgba(247,245,252,.58); }

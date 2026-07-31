@@ -105,7 +105,9 @@
 <div class="form-group"><label for="contact-service">Service required *</label><select id="contact-service" name="Service required" required=""><option value="">Select</option><option>U.S. Visa Refusal Mapping</option><option>Refusal Diagnostic Audit</option><option>B1/B2 Visitor or Business Visa</option><option>F-1 Student Visa</option><option>DS-160 Consistency Review</option><option>Interview Readiness</option><option>Study in USA Profile Review</option><option>Independent Second Opinion</option></select></div>
 <div class="form-group"><label for="contact-mode">Preferred consultation *</label><select id="contact-mode" name="Preferred consultation" required=""><option value="">Select</option><option>Vadodara office</option><option>Online video consultation</option><option>Phone call first</option></select></div>
 <div class="form-group"><label for="contact-refusal-date">Latest refusal date</label><input id="contact-refusal-date" name="Latest refusal date" type="date"/></div>
-<div class="form-group"><label for="contact-refusal-count">Number of U.S. refusals</label><select id="contact-refusal-count" name="Number of U.S. refusals"><option>None</option><option>1</option><option>2</option><option>3 or more</option><option>221(g) / administrative processing</option></select></div>
+<div class="form-group"><label for="contact-refusal-count">Number of U.S. refusals</label><select id="contact-refusal-count" name="Number of U.S. refusals"><option>None</option><option>1</option><option>2</option><option>3 or more</option><option>221(g) / administrative processing</option>
+<option>Other</option>
+</select></div>
 <div class="form-group"><label for="contact-appointment">New visa appointment</label><select id="contact-appointment" name="New visa appointment"><option>Not booked</option><option>Booked within 14 days</option><option>Booked within 15–30 days</option><option>Booked after 30 days</option><option>DS-160 submitted only</option></select></div>
 <div class="form-group"><label for="contact-old-ds">Old DS-160 available?</label><select id="contact-old-ds" name="Old DS-160 available"><option>Yes — full copy</option><option>Confirmation page only</option><option>No</option><option>Not applicable</option></select></div>
 <div class="form-group full"><label for="contact-summary">Case summary *</label><textarea id="contact-summary" name="Case summary" placeholder="Visa category, refusal history, questions asked, answers given and what has genuinely changed" required=""></textarea></div>
@@ -135,7 +137,7 @@
 <div><span class="eyebrow">Online consultations</span><h2>Available for clients outside Vadodara and India.</h2><p>Documents should be shared through the approved secure process before the session. The team will confirm identity, scope, payment and meeting details separately.</p></div>
 </div>
 </section>
-<section class="section section-soft"><div class="container grid-2 align-center"><div><span class="eyebrow">Direct appointment scheduling</span><h2>Choose the most convenient next step.</h2><p class="lead">Use the live scheduler when configured, or continue through WhatsApp for a structured case-mapping enquiry.</p><div data-booking-embed=""><button class="btn btn-secondary" data-load-booking="" type="button">Open Appointment Calendar</button></div></div><div class="map-embed" data-map-embed=""><div><span class="eyebrow">Google Business Profile map</span><h3>Exact map embed is configured in assets/js/config.js.</h3><p><a class="btn-link" href="https://www.google.com/maps/search/?api=1&amp;query=Embassy+of+Education+GF-15+Sharnam+Fortune+Vadodara" target="_blank">Open directions now</a></p></div></div></div></section></main>
+<section class="section section-soft"><div class="container grid-2 align-center"><div><span class="eyebrow">Direct appointment scheduling</span><h2>Choose the most convenient next step.</h2><p class="lead">Choose an available consultation slot or submit the enquiry form. Your appointment is confirmed only after our team sends written confirmation. Please do not upload passports, financial records or other sensitive documents through the public enquiry form.</p><div data-booking-embed=""><button class="btn btn-secondary" data-load-booking="" type="button">Open Appointment Calendar</button></div></div><div class="map-embed" data-map-embed=""><div><span class="eyebrow">Google Business Profile map</span><h3>Visit our Vadodara office for a confidential, appointment-led consultation.</h3><p>Use Get Directions for the exact location, or contact our team if you require accessibility or parking guidance.</p><p><a class="btn-link" href="https://www.google.com/maps/search/?api=1&amp;query=Embassy+of+Education+GF-15+Sharnam+Fortune+Vadodara" target="_blank">Get Directions</a></p></div></div></div></section></main>
 <footer class="site-footer">
 <div class="container">
 <div class="footer-grid">
@@ -228,7 +230,7 @@
 <option>B1/B2 Visitor or Business Visa</option>
 <option>F-1 Student Visa</option>
 <option>Other U.S. nonimmigrant visa</option>
-<option>Study in USA guidance</option>
+<option>Immigrant Visa (family or employment based)</option>
 </select>
 </div>
 <div class="form-group">
@@ -239,6 +241,7 @@
 <option>2 refusals</option>
 <option>3 or more refusals</option>
 <option>221(g) / administrative processing</option>
+<option>Other</option>
 </select>
 </div>
 <div class="form-group">
@@ -306,19 +309,21 @@
 <section class="readiness-step">
 <span class="eyebrow">Step 03 · Application timing</span>
 <h3>Where does the new application currently stand?</h3>
+<p class="small readiness-subquestion">1. DS-160 status</p>
 <div class="option-grid" data-required-group="">
 <label class="option-card"><input name="ds160" required="" type="radio" value="not-started"/><span>New DS-160 not started</span></label>
 <label class="option-card"><input name="ds160" required="" type="radio" value="draft"/><span>DS-160 in draft</span></label>
 <label class="option-card"><input name="ds160" required="" type="radio" value="submitted"/><span>DS-160 already submitted</span></label>
 <label class="option-card"><input name="ds160" required="" type="radio" value="not-sure"/><span>Not sure</span></label>
 </div>
+<p class="small readiness-subquestion" style="margin-top:14px">2. Appointment timing</p>
 <div class="option-grid" data-required-group="" style="margin-top:10px">
 <label class="option-card"><input name="appointment" required="" type="radio" value="none"/><span>No appointment booked</span></label>
 <label class="option-card"><input name="appointment" required="" type="radio" value="later"/><span>Appointment after 30 days</span></label>
 <label class="option-card"><input name="appointment" required="" type="radio" value="soon"/><span>Appointment within 30 days</span></label>
 <label class="option-card"><input name="appointment" required="" type="radio" value="not-sure"/><span>Not sure</span></label>
 </div>
-<div aria-live="polite" class="form-message"></div>
+<div aria-live="polite" class="form-message">Please answer both questions above (DS-160 status and appointment timing) to continue.</div>
 <div class="readiness-actions"><button class="btn btn-outline" data-readiness-prev="" type="button">Back</button><button class="btn btn-primary" data-readiness-next="" type="button">Continue</button></div>
 </section>
 <section class="readiness-step">

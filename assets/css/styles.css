@@ -225,6 +225,12 @@ li + li {
   color: var(--muted);
 }
 
+.readiness-subquestion {
+  font-weight: 700;
+  color: var(--ink);
+  margin: 0 0 6px;
+}
+
 .muted {
   color: var(--muted);
 }

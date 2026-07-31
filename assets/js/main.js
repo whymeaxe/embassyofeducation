@@ -28,6 +28,9 @@
     if (cfg.googleReviewUrl) node.href = cfg.googleReviewUrl;
     else node.hidden = true;
   });
+  qsa('[data-google-review-view]').forEach((node) => {
+    if (cfg.googleReviewsViewUrl) node.href = cfg.googleReviewsViewUrl;
+  });
   qsa('[data-booking-link]').forEach((node) => {
     if (cfg.bookingUrl) node.href = cfg.bookingUrl;
   });
